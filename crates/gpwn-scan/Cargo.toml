@@ -1,0 +1,23 @@
+[package]
+name = "gpwn-scan"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation = "https://docs.rs/gpwn-scan"
+readme.workspace = true
+description = "Transport-independent downstream GEM activity scanning workflows"
+keywords = ["gpon", "gem", "onu", "networking"]
+categories = ["network-programming"]
+
+[dependencies]
+gpwn-core = { path = "../gpwn-core", version = "0.1.0" }
+serde.workspace = true
+tokio.workspace = true
+
+[dev-dependencies]
+async-trait.workspace = true
+gpwn-mock = { path = "../gpwn-mock", version = "0.1.0" }

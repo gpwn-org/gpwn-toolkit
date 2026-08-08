@@ -1,0 +1,6 @@
+/target/
+/captures/
+/gpwn-autoscan-*.json
+/capture-index*.json
+/recovered-objects/
+/gpwn-artifact-cache/

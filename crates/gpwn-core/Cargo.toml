@@ -1,0 +1,19 @@
+[package]
+name = "gpwn-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation = "https://docs.rs/gpwn-core"
+readme.workspace = true
+description = "Transport-independent models, backend traits, and Realtek GPON ONU parsers"
+keywords = ["gpon", "onu", "omci", "networking"]
+categories = ["network-programming", "parser-implementations"]
+
+[dependencies]
+async-trait.workspace = true
+serde.workspace = true
+thiserror.workspace = true

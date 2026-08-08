@@ -1,0 +1,21 @@
+[package]
+name = "gpwn-mock"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation = "https://docs.rs/gpwn-mock"
+readme.workspace = true
+description = "Deterministic mock backends for GPWN applications and tests"
+keywords = ["gpon", "onu", "mock", "testing"]
+categories = ["development-tools::testing"]
+
+[dependencies]
+async-trait.workspace = true
+gpwn-core = { path = "../gpwn-core", version = "0.1.0" }
+
+[dev-dependencies]
+tokio.workspace = true

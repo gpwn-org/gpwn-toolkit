@@ -1,0 +1,28 @@
+[package]
+name = "gpwn-tui"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation = "https://docs.rs/gpwn-tui"
+readme.workspace = true
+description = "Interactive terminal toolkit for inspecting and managing Realtek GPON ONU flows"
+keywords = ["gpon", "onu", "ratatui", "networking"]
+categories = ["command-line-utilities", "network-programming"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+crossterm = { version = "0.28", features = ["event-stream"] }
+gpwn-capture = { path = "../gpwn-capture", version = "0.1.0" }
+gpwn-core = { path = "../gpwn-core", version = "0.1.0" }
+gpwn-mock = { path = "../gpwn-mock", version = "0.1.0" }
+gpwn-scan = { path = "../gpwn-scan", version = "0.1.0" }
+gpwn-ssh = { path = "../gpwn-ssh", version = "0.1.0" }
+ratatui = "0.29"
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true

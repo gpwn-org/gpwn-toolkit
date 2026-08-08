@@ -1,0 +1,3 @@
+[toolchain]
+profile = "minimal"
+components = ["clippy", "rustfmt"]

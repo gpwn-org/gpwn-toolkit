@@ -1,0 +1,21 @@
+[package]
+name = "gpwn-capture"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation = "https://docs.rs/gpwn-capture"
+readme.workspace = true
+description = "Safe local dumpcap lifecycle and capture sizing for GPWN"
+keywords = ["pcap", "dumpcap", "packet-capture", "networking"]
+categories = ["network-programming"]
+
+[dependencies]
+gpwn-core = { path = "../gpwn-core", version = "0.1.0" }
+nix.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true

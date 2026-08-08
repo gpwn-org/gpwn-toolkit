@@ -1,0 +1,21 @@
+[package]
+name = "gpwn-ssh"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+documentation = "https://docs.rs/gpwn-ssh"
+readme.workspace = true
+description = "Persistent SSH and diagnostic-shell backend for Realtek GPON ONUs"
+keywords = ["gpon", "onu", "ssh", "networking"]
+categories = ["network-programming"]
+
+[dependencies]
+async-trait.workspace = true
+gpwn-core = { path = "../gpwn-core", version = "0.1.0" }
+base64 = "0.22"
+ssh2 = { version = "0.9", features = ["vendored-openssl"] }
+tokio.workspace = true
