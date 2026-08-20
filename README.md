@@ -9,6 +9,14 @@ A collection of libraries and a TUI to test fiber GPON deployments.
 > illegal activity. You are responsible for understanding and following all
 > laws and regulations that apply where you conduct the research.
 
+## Contributions
+
+Contributions are welcome! Please open an issue/PR with a description of your proposed changes. 
+
+## Community and discussions
+
+[Join the discord](https://discord.gg/MUAqcAy9fB) to chat with us about gpwn!
+
 ## Features
 
 - Manage a connected ONU, view its state and configuration
@@ -22,6 +30,8 @@ A collection of libraries and a TUI to test fiber GPON deployments.
 
    - [HSGQ XPON Stick](https://www.hsgq.com/XPON-Stick-Full-Form-Customized-pd597593578.html)
    - [ODI XPON Stick](https://www.aliexpress.us/item/3256809370622026.html)
+   - [Luleey XPON Stick](https://www.luleey.com/product/2-5g-xpon-stick-sfp-onu/) (thanks @evilsocket for confirming!)
+   
      
 
 2. Optionally, a media converter for SFP <-> RJ45
