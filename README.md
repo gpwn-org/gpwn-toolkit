@@ -18,9 +18,11 @@ A collection of libraries and a TUI to test fiber GPON deployments.
 
 ## Hardware required
 
-1. An ONU based on a Realtek 960x chipset
+1. An ONU based on a Realtek 960x chipset, some confirmed working examples:
 
-   - like: [HSGQ XPON Stick](https://www.hsgq.com/XPON-Stick-Full-Form-Customized-pd597593578.html)
+   - [HSGQ XPON Stick](https://www.hsgq.com/XPON-Stick-Full-Form-Customized-pd597593578.html)
+   - [ODI XPON Stick](https://www.aliexpress.us/item/3256809370622026.html)
+     
 
 2. Optionally, a media converter for SFP <-> RJ45
 
